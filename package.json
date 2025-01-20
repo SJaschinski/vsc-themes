@@ -1,0 +1,32 @@
+{
+  "name": "vsc-themes-sjaschinski",
+  "displayName": "Visual Studio Code custom themes by SJaschinski",
+  "description": "Two custom Visual Studio Code Themes based on Light Modern to easily distinguish between Visual Studio Code stable and insiders.",
+  "version": "1.0.0",
+  "publisher": "SJaschinski",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SJaschinski/vsc-themes.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "VS Code Stable",
+        "uiTheme": "vs",
+        "path": "./stable-theme.jsonc"
+      },
+      {
+        "label": "VS Code Insiders",
+        "uiTheme": "vs",
+        "path": "./insiders-theme.jsonc"
+      }
+    ]
+  }
+}

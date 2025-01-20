@@ -10,22 +10,23 @@
   },
   "license": "MIT",
   "engines": {
-    "vscode": "^1.0.0"
+    "vscode": "^1.96.0"
   },
   "categories": [
     "Themes"
   ],
+  "icon": "./icon.png",
   "contributes": {
     "themes": [
       {
         "label": "VS Code Stable",
         "uiTheme": "vs",
-        "path": "./stable-theme.jsonc"
+        "path": "./themes/stable-theme-color-theme.json"
       },
       {
         "label": "VS Code Insiders",
         "uiTheme": "vs",
-        "path": "./insiders-theme.jsonc"
+        "path": "./themes/insiders-theme-color-theme.json"
       }
     ]
   }
